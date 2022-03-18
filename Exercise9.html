@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Immanuel S. Alonzo"/>
+        <meta name="content" content="Your details, Delivery Address, Membership Information, Sign Up">
+    <title>Exercise9</title>
+    </head>
+    <body style="background-color: gray; color: white">
+        <h2 style="font-family: Arial; text-align: center">Sign up now!</h2>
+        <p>Fields marked (*) are required</p>
+        <ul>
+        <p>Your Details</p>
+        <form action="/action_page.php" target="_blank" autocomplete="on">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" minlength="1" placeholder="Full name" size="50" required><br>
+          <label for="email">Email *</label>
+          <input type="text" id="email" name="email" minlength="5" placeholder="e.g.ryan@example.net" size="50" required><br>
+          <label for="phone">Phone *</label>
+          <input type="text" minlength="11" maxlength="11" id="phone" name="phone" placeholder="Please enter an eleven digit number" size="50" required><br>
+          <label for="date">Birthday</label>
+          <input type="date" id="date" name="date" placeholder="Please enter birthday" min="1900-1-1" max="2023-1-1" size="50"><br>
+        <p>Delivery Address</p>
+          <label for="Address">Address 1 *</label>
+          <input type="text" id="Address" name="Address" placeholder="House/Apt Number and Street" size="50" required><br>
+          <label for="District/Barangay">District/Barangay *</label>
+          <input type="text" id="District/Barangay" name="District/Barangay" placeholder="San Someone Sur" size="50" required><br>
+          <label for="City">City *</label>
+          <select id="City" name="City" required>
+            <option value="Manila">Manila</option>
+            <option value="Baguio">Baguio</option>
+            <option value="Cebu">Cebu</option>
+            <option value="Davao">Davao</option>
+          </select><br>
+          <label for="Postal Code">Postal Code *</label>
+          <input type="Postal Code" id="Postal Code" name="Postal Code" size="50" required><br>
+          <label for="Province">Province *</label>
+          <select id="Province" name="Province" required>
+            <option value="NCR">NCR</option>
+            <option value="NCR">Benguet</option>
+            <option value="Cebu">Cebu</option>
+            <option value="Davao del Sur">Davao del Sur</option>
+          </select><br>
+        <p>Membership Information</p>
+        <label for="username">Username *</label>
+        <input type="text" id="username" name="username" size="50" minlength="8" maxlength="50" placeholder="At least 8 alphanumeric characters" required><br>
+        <label for="pwd">Password *</label>
+        <input type="password" id="pwd" name="pwd" size="50" minlength="1" placeholder="Enter password" required><br>
+        <label for="Magazine Subscriptions">Magazine Subscriptions</label><br>
+        <input type="checkbox" id="PCMagazine" name="PCMagazine" value="PCMagazine">
+        <label for="PCMagazine"> PCMagazine</label><br>
+        <input type="checkbox" id="Wired" name="Wired" value="Wired">
+        <label for="Wired"> Wired</label><br>
+        <input type="checkbox" id="Computerworld" name="Computerworld" value="Computerworld">
+        <label for="Computerworld"> Computerworld</label><br>
+        <input type="checkbox" id="I don't subscribe" name="I don't subscribe" value="I don't subscribe">
+        <label for="I don't subscribe"> I don't subscribe</label><br>
+        <input type="checkbox" id="Other" name="Other" value="Other">
+        <label for="Other"> Other</label><br>
+        </ul>
+        <input type="submit" value="Sign Up">
+        </form>
+    </body>
+</html>
