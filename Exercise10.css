@@ -1,0 +1,25 @@
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+img {
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    vertical-align: middle;
+}
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+nav {
+    color: white;
+    text-align: center;
+}
+footer {
+    color: white;
+    text-align: center;
+}
