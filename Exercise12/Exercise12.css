@@ -1,0 +1,214 @@
+p{
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+}
+body{
+    background-color:black;
+    color: white;
+}
+.top{
+    background-color: rgb(52, 52, 52);
+    position: static;
+    width: 1440px;
+    height: 90px;
+    border: solid white;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 1px;
+    align-items: center;
+}
+.top2{
+    background-color: rgb(31, 31, 31);
+    position: static;
+    width: 950px;
+    height: 30px;
+    border: solid white;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+nav{
+    overflow: hidden;
+    float: right;
+    border-bottom: 50px;
+}
+nav a:hover{
+    background-color: violet;
+    color: white;
+}
+.internal{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid white;
+}
+.internal2{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 200px;
+    border: 1px solid white;
+}
+.left{
+    background-color: rgb(52, 52, 52);
+    position: static;
+    width: 390px;
+    height: 1500px;
+    border: solid white;
+    margin: 20px;
+    float: left;
+}
+.left1{
+    background-color: black;
+    position: static;
+    width: "";
+    height: 50px;
+    border: solid white;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.left2{
+    background-color: black;
+    position: static;
+    width: "";
+    height: 1100px;
+    border: solid white;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.left3{
+    background-color: black;
+    position: static;
+    width: "";
+    height: 210px;
+    border: solid white;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.right{
+    background-color: rgb(52, 52, 52);
+    position: static;
+    width: 1000px;
+    height: 1500px;
+    border: solid white;
+    margin: 20px;
+    float: right;
+}
+.right1{
+    background-color: black;
+    position: static;
+    width: "";
+    height: 50px;
+    border: solid white;
+    margin: 20px;
+}
+.rightsec1{
+    background-color: black;
+    position: static;
+    width: "";
+    height: 600px;
+    border: solid white;
+    margin: 20px;
+}
+.sec1, .sec2, .sec3{
+    background-color: rgb(52, 52, 52);
+    position: static;
+    width: "";
+    height: 50px;
+    border: solid white;
+    margin: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sec4{
+    background-color: rgb(52, 52, 52);
+    position: static;
+    width: "";
+    height: 150px;
+    border: solid white;
+    margin: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.rightsec2{
+    background-color: black;
+    position: static;
+    width: "";
+    height: 530px;
+    border: solid white;
+    margin: 20px;
+}
+.sec5{
+    background-color: rgb(52, 52, 52);
+    position: static;
+    width: "";
+    height: 50px;
+    border: solid white;
+    margin: 20px;
+}
+.sec6{
+    background-color: rgb(52, 52, 52);
+    position: static;
+    width: 450px;
+    height: 180px;
+    border: solid white;
+    margin: 20px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec7{
+    background-color: rgb(52, 52, 52);
+    position: static;
+    width: 300px;
+    height: 180px;
+    border: solid white;
+    margin: 20px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec8{
+    background-color: rgb(52, 52, 52);
+    position: static;
+    width: 800px;
+    height: 150px;
+    border: solid white;
+    margin: 20px;
+    margin-top: 1px;
+    float: left;
+}
+.right3{
+    background-color: black;
+    position: static;
+    width: "";
+    height: 150px;
+    border: solid white;
+    margin: 20px;
+}
+.bottom{
+    background-color: rgb(52, 52, 52);
+    position: static;
+    width: 1460px;
+    height: 160px;
+    border: solid white;
+    margin: 20px;
+    margin-top: 1px;
+    float: left;
+    align-items: center;
+}
