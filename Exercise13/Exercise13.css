@@ -1,0 +1,111 @@
+*{
+    box-sizing: box-border;  
+}
+body{
+    background-color: black;
+}
+div{
+    margin: 10px;
+    width: 1300px;
+    height: 250px;
+    border: 10px white;
+    padding-right: 25px;
+    padding-top: 5px;
+}
+header{
+    background-image: url(anarchysymbol.jpg);
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+    float: left;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border: 5px white;
+}
+nav{
+    overflow: hidden;
+    float: right;
+    border-bottom: 1000px;
+}
+article{
+    clear: both;
+    border: 20px white;
+}
+.internal{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 80px 90px;
+    border: 5px solid white;
+}
+nav a:hover{
+    background-color: violet;
+    color: white;
+}
+section{
+    float: none;
+    width: 100%;
+    clear: both;
+    margin: 100px;
+    padding: 15px;
+}
+h1{
+    font-family: Arial;
+    text-align: center;
+    color: white
+}
+h2{
+    font-family: Arial;
+    text-align: center;
+    color: white
+}
+.Burger{
+    color: white;
+    font-style: bold;
+    font-family: Arial;
+}
+.TheUniqueandItsProperty{
+    color: white;
+    font-style: bold;
+    font-family: Arial;
+}
+.Lo-Fi{
+    color: white;
+    font-style: bold;
+    font-family: Arial;
+}
+#s1{
+    background-image: url(burger.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 1250px;
+    height: 1000px;
+}
+#s2{
+    background-image: url(unique.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 1250px;
+    height: 1000px;
+}
+#s3{
+    background-image: url(lofi.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 1250px;
+    height: 1000px;
+}
+section{
+    width: 100%;
+}
+footer{
+    border: 10px outset white;
+    padding-left: 10px;
+    color: white;
+    margin: 20px;
+}
