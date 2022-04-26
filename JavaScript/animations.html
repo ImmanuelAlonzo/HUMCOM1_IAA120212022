@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<script type="text/javascript">
+			function changeImage(ImageID,ImageFileName) {
+			document.getElementById(ImageID).src = ImageFileName;
+				}
+
+		</script>
+
+	</head>
+	<body>
+		<img src="fb.jpg" alt="Thumbnail" id= "TestID"
+ 			onmouseover="changeImage('TestID','walk.jpg')"
+			onmouseout="changeImage('TestID','walk.jpg')">
+
+	</body>
+</html>
+
