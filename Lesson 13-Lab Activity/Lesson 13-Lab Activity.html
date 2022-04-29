@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+        <script>
+            function sayHello(who){
+                document.write("Hello " + who);
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+            document.write("Hello, World!");
+            var myvariable=5;
+            //This is a comment
+            //Comments are not exceuted
+            document.write("<br>");
+            var words="This is";
+            var morewords=" a sentence";
+            var sentence=words+morewords;
+            document.write(sentence);
+            document.write("<br>");
+            var num1=5;
+            var num2=3;
+            var total=num1+num2;
+            document.write(total);
+            document.write("<br>");
+            var total=num1++;
+            document.write(num1);
+            document.write("<br>");
+            var alpha="ABCDEFG";
+            var length=alpha.length;
+            document.write(length);
+            document.write("<br>");
+            var result=alpha.substring(3, 5);
+            document.write(result);
+            document.write("<br>");
+            var a=new Array(7);
+            a[0]="cat";
+            a[1]="dog";
+            a[2]=95;
+            a[6]=true;
+            document.write(a[1]);
+            document.write("<br>");
+            var a2=new Array("cat", "dog", 53, true);
+            //var a2=["cat", "dog", 53, true];
+            document.write(a2[1]);
+            document.write("<br>");
+            sayHello("Bob");
+            document.write("<br>");
+            sayHello("Mary");
+            document.write("<br>");
+            var a=12;
+            if (a>10){
+                alert(a);
+            }
+            var b="jake";
+            if (b=="Jake"){
+                alert(b);
+            } else {
+                alert("The condition was false");
+            }
+            for (i=0;i<6;i++){
+                document.write("This is iteration "+i+"<br>");
+            }
+            //continue
+        </script>
+    </body>
+</html>
